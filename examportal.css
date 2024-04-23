@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: whitesmoke;
+    /* display: flex; */
+    /* align-items: center;
+  justify-content: center; */
+    /* min-height: 100vh; */
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#showinfo {
+    height: calc(100%);
+    width: calc(100%);
+    overflow: hidden;
+}
+
+#headDiv {
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    font-weight: bolder;
+    text-decoration: underline floralwhite;
+    margin-bottom: 0.3rem;
+}
+
+.innerDiv {
+    color: black;
+    background-color: azure;
+    height: 7rem;
+    width: 70vw;
+    margin: auto;
+    text-align: left;
+    padding-left: 3rem;
+    border-radius: 2rem;
+    border: 0.24rem solid green;
+}
+
+.innerDiv span {
+    letter-spacing: 0.1rem;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.innerDiv p {
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+}
+
+#details {
+    margin: 1rem auto;
+    background-color: whitesmoke;
+    color: black;
+    height: 70vh;
+    width: 70vw;
+    text-align: left;
+    overflow: scroll;
+}
+
+#details h2 {
+    font-size: 40px;
+    font-weight: 900;
+    padding: 4rem;
+}
+
+#details div p {
+    font-size: large;
+    font-weight: 600;
+}
+
+#details div {
+    padding: 1rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+#details div div {
+    padding: 0;
+    font-size: large;
+    font-weight: 900;
+}
+
+.inptans {
+    font-size: medium;
+    font-weight: 500;
+    line-height: 10px;
+}
+
+#details p {
+    margin: 0.5rem;
+}
+
+.afterExamP {
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+}
+
+h2 {
+    color: #9f01ea;
+}
+
+button {
+    margin: 0.7rem auto;
+    display: flex;
+    justify-content: center;
+    color: #9f01ea;
+    background-color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    height: 2rem;
+    width: 15rem;
+}
+
+button:hover {
+    background-color: #BEDAEF;
+    text-align: center;
+    letter-spacing: .5rem;
+    transition: 1.3s ease-in-out;
+}

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: whitesmoke;
+    /* display: flex; */
+    /* align-items: center;
+  justify-content: center; */
+    /* min-height: 100vh; */
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#showinfo {
+    height: calc(100%);
+    width: calc(100%);
+    overflow: hidden;
+}
+
+#headDiv {
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    font-weight: bolder;
+    text-decoration: underline floralwhite;
+}
+
+.mainDivHolder {
+    display: flex;
+    justify-content: center;
+    padding: 0.3rem;
+}
+
+/*box banavto*/
+.mainDivHolder .boxDiv {
+    padding: .7rem;
+    margin: 0.5rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 2px 2px #fde994;
+}
+
+.boxDiv span {
+    text-align: center;
+    color: darkslategrey;
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+button {
+    color: #9f01ea;
+    background-color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    height: 2rem;
+    width: 15rem;
+}
+
+button:hover {
+    background-color: #BEDAEF;
+    text-align: center;
+    letter-spacing: .5rem;
+    transition: 1.3s ease-in-out;
+}
+
+#details {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 4rem;
+    background-color: white;
+    height: 400px;
+    overflow: scroll;
+}
+
+#details p {
+    text-align: center;
+    padding: 1rem 0;
+    color: #9f01ea;
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+h3 {
+    color: #9f01ea;
+}
+
+#details ul {
+    overflow: scroll;
+    height: 300px;
+    padding: 1rem 0;
+}
+
+
+#details li {
+
+    font-size: 18px;
+    font-weight: 550;
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#details span {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 550;
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.inpt {
+    height: 2rem;
+    width: 18rem;
+    margin: 1rem;
+    margin-left: 15rem;
+}
+
+.allBtn {
+    margin: 0.7rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.allQue {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+#details div span {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 550;
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#warn span {
+    text-align: center;
+    color: #9f01ea;
+    font-size: 21px;
+    font-weight: 600;
+    max-width: 70%;
+}
+
+.yesNO {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/*BUTTON CSS Start*/
+
+/*BUTTON CSS END*/
