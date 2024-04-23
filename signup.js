@@ -30,7 +30,7 @@ btn.addEventListener("click", (e) => {
 
         let student = new Student(inputFname, inputLname, inputEmail, inputUserName, inputPassword);
 
-        let response = fetch("http://mcq-quiz-app-env.eba-p3jh63gy.eu-north-1.elasticbeanstalk.com/studentRestController/saveData", {
+        let response = fetch("https://mcq-quiz-app-env.eba-p3jh63gy.eu-north-1.elasticbeanstalk.com/studentRestController/saveData", {
             method: "POST",
             headers: {
                 'auth': 'headers',
